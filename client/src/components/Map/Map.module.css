@@ -1,0 +1,18 @@
+.root {
+  position: relative;
+  flex: 1;
+  border: 1px solid gray;
+  box-shadow: 0 0 3px 1px gray;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.network-error {
+  position: absolute;
+  padding: 16px;
+  z-index: 400;
+  background: white;
+  top: 4%;
+  left: 2%;
+  border-radius: 8px;
+}

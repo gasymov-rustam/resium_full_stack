@@ -1,0 +1,43 @@
+.root {
+  padding: 8px 16px;
+  min-height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 6px 1px gray;
+  margin-bottom: 10px;
+}
+
+.img {
+  width: 200px;
+  height: 70px;
+  object-fit: cover;
+}
+
+.credentials {
+  display: flex;
+  gap: 30px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px;
+  border-radius: 15px;
+  cursor: pointer;
+  border: 1px solid gray;
+  transition: 0.4s;
+  box-shadow: 0 0 3px 1px gray;
+  background: white;
+  width: 100px;
+}
+
+.btn:hover {
+  background: lightgray;
+}
+
+.user {
+  padding: 8px 16px;
+  border-radius: 15px;
+}

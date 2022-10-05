@@ -1,0 +1,136 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  max-width: 400px;
+  width: 100%;
+  margin: 50px auto;
+  border: 1px solid #5d5d67;
+  border-radius: 5px;
+  padding: 8px 16px;
+  position: relative;
+}
+
+.title,
+.verify {
+  text-align: center;
+}
+
+.verify {
+  color: red;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+.label {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  position: relative;
+}
+
+.label > span {
+  padding-left: 8px;
+}
+
+.label-checkbox {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.error {
+  position: absolute;
+  color: red;
+  font-size: 0.6rem;
+  top: 105%;
+}
+
+.img {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  position: absolute;
+  top: 53%;
+  right: 7%;
+}
+
+.input {
+  border-radius: 5px;
+  border: 1px solid rgb(179, 176, 176);
+  padding: 4px 8px;
+  background: #f0f0ff;
+}
+
+.input-error {
+  border: 1px solid red;
+  border-radius: 5px;
+  padding: 4px 8px;
+  background: #f0f0ff;
+  color: red;
+}
+
+.input-error::placeholder {
+  color: red;
+}
+
+.wrapper-btn {
+  display: flex;
+  gap: 10px;
+  margin: 25px 0 10px 0;
+}
+
+.btn-register,
+.btn-reset {
+  flex: 1;
+  padding: 4px 8px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.2em;
+  transition: 0.5s;
+  color: white;
+}
+
+.btn-reset {
+  background: #dc3545;
+  cursor: pointer;
+}
+
+.btn-register {
+  background: #27282c;
+  cursor: pointer;
+}
+
+.btn-register:hover {
+  text-decoration: underline;
+  background: black;
+}
+
+.btn-reset:hover {
+  text-decoration: underline;
+  background: rgb(194, 11, 11);
+}
+
+.register {
+  color: #dc3545;
+  transition: 0.4s;
+  padding: 6px 12px;
+}
+
+.register:hover {
+  color: #b71727;
+  text-decoration: underline;
+}
+
+.wrapper__register-link {
+  /*margin-top: 20px;*/
+  text-align: center;
+}
+
+.error-user {
+  color: red;
+  text-align: center;
+}

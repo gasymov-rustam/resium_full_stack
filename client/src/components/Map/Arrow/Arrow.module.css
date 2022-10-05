@@ -1,0 +1,30 @@
+.popUp {
+  position: absolute;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border-radius: 5px;
+  padding: 4px;
+  opacity: 0.7;
+}
+
+.popUpNoneVisible {
+  display: none;
+}
+
+.btn {
+  padding: 4px 8px;
+  background: rgb(108, 106, 226);
+  transition: 0.4s;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.btn:hover {
+  background: rgb(11, 8, 214);
+}

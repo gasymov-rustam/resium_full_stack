@@ -1,0 +1,12 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.wrapper {
+  padding: 8px;
+  display: flex;
+  gap: 20px;
+  height: 100%;
+}
